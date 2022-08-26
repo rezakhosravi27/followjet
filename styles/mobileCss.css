@@ -1,0 +1,87 @@
+@media only screen and (max-width:600px){
+    body{
+        overflow-x: hidden;
+        font-size:.6rem ;
+    }
+    .navbar-one{
+        display: none !important;
+    }
+    .navbar-two{
+        display: none !important;
+    }
+    .navbar-mobile{
+        display:block !important;
+        width:95% ;
+        margin:.5rem auto ;
+        height:auto ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .navbar-mobile-right{
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+    }
+    .navbar-mobile-right > i{
+        padding:.4rem .4rem ;
+        background-color: rgb(243, 18, 18);
+        color:white ;
+        font-size: 1.4rem;
+        border-radius: 50%;
+        text-align: center;
+        margin-left:.8rem ;
+        cursor:pointer ;
+    }
+    .navbar-mobile-right img{
+        width:7rem ;
+        height:1.7rem ;
+    }
+    .navbar-mobile-left{
+        display: flex;
+        align-items: center;
+    }
+    .navbar-mobile-left i{
+        font-size: 1.2rem;
+        border-radius: 50%;
+        margin:0 .3rem ;
+        padding:.3rem .4rem ;
+        border: .5px solid white;
+    }
+    .container-header-content{
+        width:100% ;
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: center;
+    }
+    .container-header-content div:nth-child(1){
+        margin-top:.1rem ;
+        text-align: center;
+        width:100% ;
+        height:auto ;
+    }
+    .button-header{
+        display: block;
+        margin:0 1rem ;
+    }
+    .container-header-a-button{
+        margin: auto;
+        width:100% ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-header-image{
+        width:100% ;
+        display: flex;
+        justify-content: center;
+    }
+    .container-header-image img{
+        width:22rem ;
+        height:22rem ;
+
+    }
+
+}
